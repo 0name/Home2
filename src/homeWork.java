@@ -30,12 +30,12 @@ public class homeWork {
     public static void task3(int var) {
         int sot, dec, ed, res;
         sot = var / 100;
-        dec = var % 10 / 10;
+        dec = var % 100 / 10;
         ed = var % 100 % 10;
-        if (sot > dec && sot > ed)
+        if (sot >= dec && sot >= ed)
             res = sot;
         else
-        if (dec > sot && dec > ed)
+        if (dec >= sot && dec >= ed)
             res = dec;
         else    res = ed;
 

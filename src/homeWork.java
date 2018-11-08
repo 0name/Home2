@@ -52,7 +52,13 @@ public class homeWork {
        Числа в переменных a, b и c: 7, 0, -5
        Возрастающая последовательность: -5, 0, 7
    */
-   public static void task4(){
+   public static void task4(int var1, int var2, int var3){
+        int a = var1;
+        int b = var2;
+        int c = var3;
+        int temp = ;
 
+        if (a>b && b>c) System.out.println(a + " " + b + " " + c);
+        System.out.println(a + " " + b + " " + c);
    }
 }

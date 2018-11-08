@@ -56,7 +56,7 @@ public class homeWork {
         int a = var1;
         int b = var2;
         int c = var3;
-        int temp = ;
+        int temp ;
 
         if (a>b && b>c) System.out.println(a + " " + b + " " + c);
         System.out.println(a + " " + b + " " + c);

@@ -56,9 +56,25 @@ public class homeWork {
         int a = var1;
         int b = var2;
         int c = var3;
-        int temp ;
+        int temp;
 
-        if (a>b && b>c) System.out.println(a + " " + b + " " + c);
+        for (int i=0; i<1; i++){
+            if (a<b) System.out.println("все ок");
+            else {
+                a=a+b-(b=a); // действие в скобках вып-ся первым
+            }
+            if (a<c) System.out.println("all right");
+            else {
+                a=a+c-(c=a);
+            }
+            if (b<c) System.out.println("all right");
+            else {
+                b=b+c-(c=b);
+            }
+
+        }
+//        if (a>b && b>c) System.out.println(a + " " + b + " " + c);
+//        else if ()
         System.out.println(a + " " + b + " " + c);
    }
 }

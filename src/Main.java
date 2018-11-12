@@ -5,5 +5,7 @@ public class Main {
         homeWork.task3(768);
         homeWork.task4(7, 0, -5);
         homeWork.task5();
+        homeWork.task6();
+        homeWork.task7();
     }
 }

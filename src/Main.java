@@ -7,6 +7,8 @@ public class Main {
         homeWork.task5();
         homeWork.task6();
         homeWork.task7();
-        homeWork.task8(5);
+        homeWork.task8(9);
+        homeWork.task9();
+        homeWork.task10();
     }
 }

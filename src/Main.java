@@ -10,5 +10,6 @@ public class Main {
         homeWork.task8(9);
         homeWork.task9();
         homeWork.task10();
+        homeWork.task11();
     }
 }

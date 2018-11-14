@@ -190,11 +190,20 @@ public class homeWork {
      */
     static void task11() {
         System.out.println("Task 11");
-        for (int hour=0; hour<23; hour++){
-            for (int minute=0; minute<59; minute++){
-
+        int simComb = 0;
+        for (int hour=0; hour<=23; hour++){
+            for (int minute=0; minute<=59; minute++){
+                int hourL = hour/10;
+                int hourR = hour%10;
+                int minuteL = minute/10;
+                int minuteR = minute%10;
+                if (hourL == minuteR && hourR == minuteL){
+                    simComb++;
+//                    System.out.printf("%02d:%02d",hour, minute);
+//                    System.out.println("\n" + simComb);
+                }
             }
         }
-
+        System.out.println(simComb);
     }
 }
